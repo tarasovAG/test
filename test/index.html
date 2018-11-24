@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<head>
+  <!-- <script src="jquery-3.3.1.js"></script>
+  <script src="jquery-ui.js"></script> -->
+
+  <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css" />
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+
+  <script src="lodash.js"></script>
+  <script src="test.js"></script>
+
+  <!-- <link rel="stylesheet" href="jquery-ui.css">
+  <link rel="stylesheet" href="jquery-ui.structure.css">
+  <link rel="stylesheet" href="jquery-ui.theme.css"> -->
+  <script>
+    function bcClick() {
+
+      $("#dialog").html('uuuuuuuuuuuuuuuuu').dialog({
+        modal: true,
+        width: 400,
+        height: 200,
+        title: 'GGGGGGG'
+      });
+
+    }
+  </script>
+</head>
+
+<body>
+  <button id="bc" onclick="bcClick()">click me</button>
+
+  <div id="dialog" title="ccc" hidden>
+    <p>This is the default dialog which is useful for displaying information. The dialog window can be moved, resized
+      and closed
+      with the 'x' icon.</p>
+  </div>
+</body>
